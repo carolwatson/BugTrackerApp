@@ -1,4 +1,4 @@
-# BugTrackerApp
+# IssueTracker/ BugTracker
 App to track software issues<br>
 **Live Site:**
 [http://carolp-002-site5.ctempurl.com/](http://carolp-002-site5.ctempurl.com/)<br>
