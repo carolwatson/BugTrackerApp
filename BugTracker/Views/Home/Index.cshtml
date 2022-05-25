@@ -1,0 +1,98 @@
+﻿
+
+@{
+    Layout = "_mpLayoutModal";
+    ViewData["Title"] = "Home Page";
+}
+
+
+<style>
+    .centered {
+        position: fixed; /* or absolute */
+        top: 45%;
+        left: 50%;
+        color: white;
+    }
+
+    p {
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mt-2 {
+        margin-top: 2px;
+    }
+</style>
+
+
+<!-- Masthead-->
+<header class="masthead">
+
+    <div class="row align-items-left justify-content-left text-left">
+        <div class="col-lg-8 align-self-end  centered">
+          
+            <h3 class="text-white font-weight-bold">Issue Tracker</h3>
+
+            
+            <br />
+
+            <div class="mt-2">
+                <a asp-area="Identity" asp-page="/Account/Login" class="text-decoration-none">
+                    <span class="btn signup-btn">Login</span>
+                </a>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</header>
+
+
+
+
+
+@*@{
+        ViewData["Title"] = "Home Page";
+    }
+
+    <div class="text-left">
+        <h2 class="display-4">Welcome To Carol's Bug Tracker</h2>
+        <p>This app tracks Software Bugs.</p>
+        <p>It can be used to track fixes and new features in an App</p>
+
+        You will see the case scenarios from start to finish.
+        The Developer notes will attach excepts and links to the tasks
+
+        *When role save a ticket they become the submitter
+        <h4>    Roles:</h4>
+        <h6>Admin</h6>
+        <p>
+            You the Creator/Admin get assigned work from customer/company.
+            You receive the Requirements - attach to ticket(came in from some source).
+            You assign that project to a Project Manager(PM). You are the user that assigns projects. You
+            set timeline.
+        </p>
+        <h6>Project Manager</h6>
+        <p>
+            Via email/or when log in system get notification of new project.
+            Assigns Developers,
+        </p>
+        <h6>Developer</h6>
+        <p>
+            Via email/or when log in system get notification of new project task.
+
+        </p>
+        <h6>Submitter</h6>
+        <p>
+            Roles submitting ticket.
+
+        </p>
+        <h6>Demos</h6>
+        <p>
+            You are automatically logged in as that role. You were given permission by Owner
+        </p>
+
+    </div>*@
