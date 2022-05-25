@@ -3,7 +3,7 @@ App to track software issues
 Live Site
 [http://carolp-002-site1.ctempurl.com/](http://carolp-002-site5.ctempurl.com/)
 
-Domo Credentials
+Demo Credentials
 demoadmin@cpwit.com
 pswd: upon request
 
