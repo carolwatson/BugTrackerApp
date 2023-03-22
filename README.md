@@ -1,11 +1,6 @@
 # IssueTracker/ BugTracker
 App to track software issues<br>
-**Live Site:**
-[http://carolp-002-site5.ctempurl.com/](http://carolp-002-site5.ctempurl.com/)<br>
 
-Demo Credentials<br>
-demoadmin@cpwit.com<br>
-pswd: upon request<br>
 
 
 This app uses tickets to improve on features. It also tracks all my other App Development.
